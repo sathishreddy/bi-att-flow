@@ -1,5 +1,5 @@
 import tensorflow as tf
-from tensorflow.python.ops.rnn_cell import DropoutWrapper, RNNCell, LSTMStateTuple
+from tensorflow.contrib.rnn import DropoutWrapper, RNNCell, LSTMStateTuple
 
 from my.tensorflow import exp_mask, flatten
 from my.tensorflow.nn import linear, softsel, double_linear_logits
