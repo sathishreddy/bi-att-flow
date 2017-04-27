@@ -1,5 +1,6 @@
 # Note
 - Upgraded SQuAD model code to work with Tensorflow 1.1. Tested on Single GPU setting. I was able to achieve EM: 66.89, F1: 76.65 on dev set after upgrading to Tensorflow 1.1.
+- Not yet tested in multi-GPU setting
 
 # Bi-directional Attention Flow for Machine Comprehension
  
